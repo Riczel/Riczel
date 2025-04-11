@@ -4,10 +4,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
-}
-html {
-    scroll-behavior: smooth;
-}
+
 
 body {
     width: 100%;
@@ -74,7 +71,7 @@ img {
 @media (max-width: 768px) {
     nav {
       flex-direction: column;
-      height: 1px;
+      height: auto;
       padding: 5px;
       text-align: center;
     }
