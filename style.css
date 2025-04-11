@@ -70,3 +70,22 @@ img {
 }#contact {
     background: linear-gradient(to right, #5e1b1b, #503d3d);
 }
+
+@media (max-width: 768px) {
+    nav {
+      flex-direction: column;
+      height: auto;
+      padding: 10px;
+      text-align: center;
+    }
+  
+    nav ul {
+      flex-direction: column;
+      padding: 0;
+    }
+  
+    nav ul a {
+      padding: 10px 0;
+      display: block;
+    }
+  }
