@@ -74,7 +74,7 @@ img {
 @media (max-width: 768px) {
     nav {
       flex-direction: column;
-      height: auto;
+      height: 1px;
       padding: 5px;
       text-align: center;
     }
